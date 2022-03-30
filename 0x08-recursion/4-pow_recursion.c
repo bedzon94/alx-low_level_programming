@@ -3,8 +3,8 @@
 
 /**
  * _pow_recursion - returns the x to the power y
- * x: the base
- * y: the exponent
+ * @x: the base
+ * @y: the exponent
  *
  * Return: the integer result, -1 on error
  */
