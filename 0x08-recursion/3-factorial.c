@@ -3,7 +3,7 @@
 
 /**
  * factorial - returns factorial of given number
- * n: the number to factorial
+ * @n: the number to factorial
  *
  * Return: the integer result, -1 on error
  */
