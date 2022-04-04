@@ -19,4 +19,4 @@ Introduction to Dynamic Memory Allocation in C
 
 [File 101-strtow.c](./101-strtow.c) is a function that splits a string into words.
 
-[File main.h](./main.h) is a header file contaning all the function prototypes.
+[File holberton.h](./holberton.h) is a header file contaning all the function prototypes.
