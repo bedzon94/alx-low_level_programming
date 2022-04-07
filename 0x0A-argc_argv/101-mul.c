@@ -16,14 +16,11 @@ int is_digit(char c)
 }
 /**
  * multiply - multiplies 2 #'s, prints result, must be 2 #'s
- * @num1: factor # 1 (is the smaller of 2 numbers)
- * @len_1: length of factor 1
- * @num2: factor # 2 (is the larger of 2 numbers)
- * @len_2: length of factor 2
- * @len_r: length of result arrays
+ * @num1: factor # 1 (1st number)
+ * @num2: factor # 2 (2nd number)
  * Return: 0 fail, 1 success
  */
-int *multiply(char *num1, int len_1, char *num2, int len_2, int len_r)
+int *multiply(char *num1, char *num2)
 {
 	int i = 0, i1 = len_1 - 1;
 	int i2, product, carry, digit, *mul_result, *sum_result;
@@ -54,8 +51,6 @@ int *multiply(char *num1, int len_1, char *num2, int len_2, int len_r)
 }
 /**
  * print_me - prints my array of the hopeful product here
- * @sum_result: pointer to int array with numbers to add
- * @len_r: length of result array
  * Return: void
  */
 void print_me(int *sum_result, int len_r)
@@ -93,7 +88,6 @@ int main(int argc, char **argv)
 	else
 	{
 		num1 = argv[2], num2 = argv[1];
-		temp = len_2, len_2 = len_1, len_1 = temp;
 	}
 	sum_result = multiply(num1, len_1, num2, len_2, len_r);
 	if (sum_result == NULL)
