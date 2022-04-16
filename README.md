@@ -44,10 +44,10 @@
 
 [![GitHub issues](https://img.shields.io/github/issues/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/issues)  [![GitHub forks](https://img.shields.io/github/forks/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/network)  [![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
 
-
+![GitHub watchers](https://img.shields.io/github/watchers/bedzon94/alx-low_level_programming?style=social)
 
 
 
 # Contributors
 
-![GitHub contributors](https://img.shields.io/github/contributors/bedzon94/alx-low_level_programming)
+![GitHub contributors](https://img.shields.io/github/contributors/bedzon94/alx-low_level_programming)  ![GitHub followers](https://img.shields.io/github/followers/bedzon94?style=social)
