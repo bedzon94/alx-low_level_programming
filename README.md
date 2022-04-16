@@ -3,6 +3,7 @@
 
 ## Programming in C
 
+# CONTENTS
 
 [0x00-hello_world](./0x00-hello_world) How to print text using printf, puts and putchar.
 
@@ -38,11 +39,13 @@
 
 [0x10-variadic_functions](./0x10-variadic_functions) Variadic functions. How to use va_start, va_arg and va_end macros.
 
-[![GitHub issues](https://img.shields.io/github/issues/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/issues)
 
-[![GitHub forks](https://img.shields.io/github/forks/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/network)
 
-[![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/issues) | [![GitHub forks](https://img.shields.io/github/forks/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/network) | [![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
+
+
+
+
 
 # Contributors
 
