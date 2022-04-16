@@ -44,6 +44,6 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
 
-# Contributers
+# Contributors
 
 ![GitHub contributors](https://img.shields.io/github/contributors/bedzon94/alx-low_level_programming)
