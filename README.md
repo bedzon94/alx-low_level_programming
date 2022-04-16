@@ -1,6 +1,6 @@
 # alx-low_level_programming
 Programming in C
 
-https://img.shields.io/github/forks/bedzon94/alx-low_level_programming
+[![GitHub forks](https://img.shields.io/github/forks/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/network)
 
-https://img.shields.io/github/stars/bedzon94/alx-low_level_programming
+[![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
