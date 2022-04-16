@@ -40,8 +40,9 @@
 [0x10-variadic_functions](./0x10-variadic_functions) Variadic functions. How to use va_start, va_arg and va_end macros.
 
 
+#
 
-[![GitHub issues](https://img.shields.io/github/issues/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/issues) | [![GitHub forks](https://img.shields.io/github/forks/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/network) | [![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/issues)  [![GitHub forks](https://img.shields.io/github/forks/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/network)  [![GitHub stars](https://img.shields.io/github/stars/bedzon94/alx-low_level_programming)](https://github.com/bedzon94/alx-low_level_programming/stargazers)
 
 
 
