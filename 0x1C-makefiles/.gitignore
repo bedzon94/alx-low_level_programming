@@ -3,5 +3,6 @@ a.out
 m.h
 main.c
 school.c
+__pycache__*
 
 0x1C.c/y
