@@ -1,62 +1,60 @@
 #include "search_algos.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
 
 /**
- * binary_search - searches for a value in an array of
- * integers using the Binary search algorithm
- * @array: array to search the value in
- * @size: size of the array
- * @value: value to look for
+ * binary_search : fxn that searches for a value in an array using binary search
+ * @array : array to search from
+ * @size : array size
+ * @value : the value to look for
  *
- * Return: the index of the found value,
- * or -1 if not found
+ * return : returns the index of the value when found or 
+ * -1 if array is empty or value not present in array
  */
+
 int binary_search(int *array, size_t size, int value)
 {
 	if (!array || size == 0)
 		return (-1);
 
-	return (help_binary(array, value, 0, size - 1));
+	return (binary_helper(array, value, 0, size -1));
 }
 
 /**
- * help_binary - searches for a value in an array of
- * integers using recursion
- * @array: array to search the value in
- * @value: value to look for
+ * binry_helper : uses recursion to search for value in an array
+ * @array : array to search from
+ * @value : value to search for
  * @lo: index of the low bound
- * @hi: index of the high bound
+ * @hi: index for high bound
  *
- * Return: the index of the found value,
- * or -1 if not found
+ * return : index of the value or -1 if not found
  */
-int help_binary(int *array, int value, size_t lo, size_t hi)
+
+int binary_helper(int *array, int value, size_t lo, size_t hi)
 {
 	size_t mid;
-
-	array_print(array, lo, hi);
-	if (hi == lo && array[lo] != value)
+	print_array(array, lo, hi);
+	if (hi == lo && array[lo] !=value)
 		return (-1);
 
-	mid = ((hi - lo) / 2) + lo;
+	mid = ((hi + lo) / 2);
 	if (array[mid] == value)
 		return (mid);
 	if (array[mid] < value)
-		return (help_binary(array, value, mid + 1, hi));
+		return (binary_helper(array, value, mid + 1, hi));
 	if (array[mid] > value)
-		return (help_binary(array, value, lo, mid - 1));
+		return (binary_helper(array, value, lo, mid -1));
 	return (-1);
 }
 
 /**
- * array_print - prints an array
- * @array: array to print
- * @lo: index of the low bound
- * @hi: index of the high bound
+ * print_array : prints the array
+ * @array : array to be printed
+ * @lo : index of the low bound
+ * @hi : index of the high bound
+ *
+ * reurn : void
  */
-void array_print(int *array, size_t lo, size_t hi)
+
+void print_array(int *array, size_t lo, size_t hi)
 {
 	size_t i;
 
